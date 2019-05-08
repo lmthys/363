@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="MyPackage">
+
+    <class name="Person" table="person" catalog="coms363hn" optimistic-lock="version">
+        <id name="id" column="ID">
+            <generator class="assigned"/>
+        </id>
+        <property name="name" column="Name"/>
+        <property name="dob" column="DOB"/>
+        <property name="address" column="Address"/>
+               
+        <joined-subclass name="Instructor" table="instructor" extends="Person">
+			<key column="InstructorID"/>
+			<property name="rank" column="RANK"/>
+			<property name="salary" column="SALARY"/>
+		</joined-subclass>
+        		
+		<joined-subclass name="Student" extends="Person">
+			<key column="StudentID"/>
+			<property name="classification" column="Classification"/>
+			<property name="gpa" column="GPA"/>
+			<property name="credithours" column="CreditHours"/>
+			<many-to-one name="mentorid" class="Instructor" fetch="select" column="mentorid"/>
+		</joined-subclass>
+    </class>
+ 
+	<class name="Course" table="course" catalog="coms363hn" optimistic-lock="version">
+		<composite-id>
+		<key-property name="coursecode" column="CourseCode"/>
+        <key-property name="prereq" column="PreReq"/>
+        </composite-id>
+		<property name="coursename" column="CourseName"/>
+    </class>
+
+	<class name="Offering" table="offering" catalog="coms363hn" optimistic-lock="version">
+		<composite-id>
+		<key-property name="coursecode" column="CourseCode"/> 
+		<key-property name="sectionno" column="SectionNo"/>
+        </composite-id>
+		<many-to-one name="instructorid" class="Instructor" fetch="select" column="InstructorID"/>
+    </class>
+
+	<class name="Enrollment" table="enrollment" catalog="coms363hn" optimistic-lock="version">
+		<composite-id>
+		<key-property name="coursecode" column="CourseCode"/>
+		<key-property name="sectionno" column="SectionNo"/>
+		</composite-id>        
+		<many-to-one name="studentid" class="Instructor" fetch="select" column="StudentID"/>
+		<property name="grade" column="Grade"/>
+    </class>
+</hibernate-mapping>
+

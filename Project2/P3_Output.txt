@@ -1,0 +1,267 @@
+Thu Oct 05 23:10:47 CDT 2017 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+*** Connected to the database ***
+Step A
+Name: Min Tuyet
+Salary: 120000
+Name: Seth Carney
+Salary: 100000
+Name: Chad Moore
+Salary: 100000
+Name: Darren Lehmann
+Salary: 80000
+Name: Graeme Dilly
+Salary: 120000
+Name: John Bracewell
+Salary: 100000
+Name: Gavin Larson
+Salary: 80000
+Name: Philip Richards
+Salary: 80000
+Name: Ricky Ponting
+Salary: 120000
+Name: Richard Ellison
+Salary: 100000
+Total Salary of all faculty: 1000000
+
+Step B
+GPA: 4.0
+GPA: 4.0
+GPA: 4.0
+GPA: 4.0
+GPA: 4.0
+GPA: 4.0
+GPA: 4.0
+GPA: 4.0
+GPA: 3.98
+GPA: 3.98
+GPA: 3.96
+GPA: 3.96
+GPA: 3.9
+GPA: 3.9
+GPA: 3.9
+GPA: 3.9
+GPA: 3.89
+GPA: 3.89
+GPA: 3.89
+GPA: 3.89
+GPA: 3.89
+GPA: 3.89
+GPA: 3.89
+GPA: 3.89
+GPA: 3.89
+GPA: 3.89
+GPA: 3.89
+GPA: 3.89
+GPA: 3.89
+
+Step C
+Classification: Junior
+GPA: 3.89
+MentorID: 961874958
+CreditHours: 76
+StudentID: 965882492
+
+Classification: Freshman
+GPA: 3.89
+MentorID: 685744439
+CreditHours: 24
+StudentID: 785273479
+
+Classification: Freshman
+GPA: 3.89
+MentorID: 836826630
+CreditHours: 21
+StudentID: 876550324
+
+Classification: Sophomore
+GPA: 3.89
+MentorID: 997111094
+CreditHours: 54
+StudentID: 803024290
+
+Classification: Senior
+GPA: 3.89
+MentorID: 201586985
+CreditHours: 99
+StudentID: 164500920
+
+Classification: Junior
+GPA: 3.89
+MentorID: 386167477
+CreditHours: 75
+StudentID: 867910658
+
+Classification: Senior
+GPA: 3.89
+MentorID: 201586985
+CreditHours: 112
+StudentID: 722131306
+
+Classification: Freshman
+GPA: 3.89
+MentorID: 201586985
+CreditHours: 12
+StudentID: 432180765
+
+Classification: Junior
+GPA: 3.89
+MentorID: 466388906
+CreditHours: 76
+StudentID: 419180204
+
+Classification: Senior
+GPA: 3.89
+MentorID: 555010131
+CreditHours: 112
+StudentID: 466094162
+
+Classification: Senior
+GPA: 3.89
+MentorID: 466388906
+CreditHours: 99
+StudentID: 664353912
+
+Classification: Freshman
+GPA: 3.89
+MentorID: 463249547
+CreditHours: 18
+StudentID: 315967897
+
+Classification: Senior
+GPA: 3.89
+MentorID: 201586985
+CreditHours: 102
+StudentID: 483727101
+
+Classification: Junior
+GPA: 3.9
+MentorID: 696335701
+CreditHours: 80
+StudentID: 916916939
+
+Classification: Freshman
+GPA: 3.9
+MentorID: 961874958
+CreditHours: 12
+StudentID: 477453864
+
+Classification: Sophomore
+GPA: 3.9
+MentorID: 386167477
+CreditHours: 42
+StudentID: 273277984
+
+Classification: Junior
+GPA: 3.9
+MentorID: 463249547
+CreditHours: 81
+StudentID: 696302689
+
+Classification: Sophomore
+GPA: 3.96
+MentorID: 997111094
+CreditHours: 42
+StudentID: 328718420
+
+Classification: Sophomore
+GPA: 3.96
+MentorID: 555010131
+CreditHours: 48
+StudentID: 483223789
+
+Classification: Freshman
+GPA: 3.98
+MentorID: 466388906
+CreditHours: 24
+StudentID: 973071948
+
+Classification: Junior
+GPA: 3.98
+MentorID: 463249547
+CreditHours: 72
+StudentID: 712952591
+
+Classification: Senior
+GPA: 4.0
+MentorID: 997111094
+CreditHours: 95
+StudentID: 956234659
+
+Classification: Freshman
+GPA: 4.0
+MentorID: 555010131
+CreditHours: 24
+StudentID: 212976207
+
+Classification: Sophomore
+GPA: 4.0
+MentorID: 836826630
+CreditHours: 54
+StudentID: 952145559
+
+Classification: Senior
+GPA: 4.0
+MentorID: 685744439
+CreditHours: 98
+StudentID: 191083779
+
+Classification: Junior
+GPA: 4.0
+MentorID: 201586985
+CreditHours: 76
+StudentID: 164776911
+
+Classification: Freshman
+GPA: 4.0
+MentorID: 555010131
+CreditHours: 21
+StudentID: 712524758
+
+Classification: Sophomore
+GPA: 4.0
+MentorID: 555010131
+CreditHours: 52
+StudentID: 907425648
+
+Classification: Senior
+GPA: 4.0
+MentorID: 386167477
+CreditHours: 105
+StudentID: 812073765
+
+
+Step D
+201586985: Gets a 1.1 raise
+386167477: Gets a 1.06 raise
+463249547: Gets a 1.08 raise
+466388906: Gets a 1.04 raise
+555010131: Gets a 1.06 raise
+685744439: Gets a 1.04 raise
+696335701: Gets a 1.08 raise
+836826630: Gets a 1.04 raise
+961874958: Gets a 1.04 raise
+997111094: Gets a 1.1 raise
+
+Step E
+Name: Min Tuyet
+Salary: 139920
+Name: Seth Carney
+Salary: 108000
+Name: Chad Moore
+Salary: 104000
+Name: Darren Lehmann
+Salary: 84800
+Name: Graeme Dilly
+Salary: 124800
+Name: John Bracewell
+Salary: 108000
+Name: Gavin Larson
+Salary: 83200
+Name: Philip Richards
+Salary: 83200
+Name: Ricky Ponting
+Salary: 132000
+Name: Richard Ellison
+Salary: 100000
+Total Salary of all faculty: 1067920
+
